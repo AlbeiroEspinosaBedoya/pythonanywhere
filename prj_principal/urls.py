@@ -24,4 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('triangle_checker/', include('triangle_checker.urls')),
+    path('credit_simulator/', include('credit_simulator.urls')),
 ]
